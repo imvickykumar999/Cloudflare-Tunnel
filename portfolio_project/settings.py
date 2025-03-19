@@ -100,6 +100,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'portfolio_project.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://imvickykumar999.online",
+    "https://www.imvickykumar999.online",
+    "http://127.0.0.1:8080",
+]
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases

@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     '.vercel.app',
     '127.0.0.1',
     'localhost',
+    '.imvickykumar999.online',
 ]
 
 # Application definition
@@ -103,24 +104,24 @@ WSGI_APPLICATION = 'portfolio_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-# https://vercel.com/imvickykumar999s-projects/django-responsive-portfolio/stores/integration/store_MZxUsnTX2rx30gHp/settings
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'neondb',  # Replace with your PostgreSQL database name
-        'USER': 'neondb_owner',  # Replace with your PostgreSQL username
-        'PASSWORD': 'npg_gN1PF9ichujV',  # Replace with your PostgreSQL password
-        'HOST': 'ep-dry-unit-a29urm8q-pooler.eu-central-1.aws.neon.tech',  # Use the server's IP or domain if not localhost
-        'PORT': '5432',  # Default PostgreSQL port
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# https://vercel.com/imvickykumar999s-projects/django-responsive-portfolio/stores/integration/store_MZxUsnTX2rx30gHp/settings
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'neondb',  # Replace with your PostgreSQL database name
+#         'USER': 'neondb_owner',  # Replace with your PostgreSQL username
+#         'PASSWORD': 'npg_gN1PF9ichujV',  # Replace with your PostgreSQL password
+#         'HOST': 'ep-dry-unit-a29urm8q-pooler.eu-central-1.aws.neon.tech',  # Use the server's IP or domain if not localhost
+#         'PORT': '5432',  # Default PostgreSQL port
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators

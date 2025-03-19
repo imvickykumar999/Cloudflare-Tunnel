@@ -1,2 +1,5 @@
-# Cloudflare-Tunnel
-https://imvickykumar999.online/
+# `Cloudflare Tunnel`
+
+```bash
+cloudflared tunnel run termux-tunnel
+```

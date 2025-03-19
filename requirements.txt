@@ -1,0 +1,12 @@
+asgiref==3.6.0
+Django==4.2.5
+sqlparse==0.4.4
+gunicorn==21.2.0
+pymysql
+django-ckeditor
+django-jazzmin
+Pillow
+django-recaptcha
+django-celery-beat
+requests
+psycopg2-binary
